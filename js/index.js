@@ -37,11 +37,11 @@ btn_close.addEventListener('click',()=>{
     mdl_back.style.display = 'none'
     
 })
-btn_add.addEventListener('click',()=>{
+/*btn_add.addEventListener('click',()=>{
     modal.style.display = 'none'
     mdl_back.style.display = 'none'
     
-})
+})*/
 function loadthemes(){
     body.style.backgroundColor = ''
     fs.innerHTML = '<span class="spn-y">'+frases[parseInt(Math.random()*frases.length)]
